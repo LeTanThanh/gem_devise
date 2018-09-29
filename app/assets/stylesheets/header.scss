@@ -1,0 +1,22 @@
+.nav > li > span.user {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+
+.navbar-nav > li > span.user {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > span.user {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+.navbar-inverse .navbar-nav > li > span.user {
+  color: #9d9d9d;
+}
