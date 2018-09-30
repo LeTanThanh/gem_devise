@@ -35,3 +35,5 @@ gem "jquery-rails"
 # gem for bootstrap
 gem "bootstrap-sass"
 gem "sass-rails"
+
+gem "devise"

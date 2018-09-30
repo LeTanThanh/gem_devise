@@ -10,6 +10,10 @@
 
   <body>
     <%= render "layouts/header" %>
+
+    <%= render "layouts/notice", notice_message: notice if notice %>
+    <%= render "layouts/alert", alert_message: alert if alert %>
+
     <%= yield %>
   </body>
 </html>
